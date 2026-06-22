@@ -1,3 +1,3 @@
 
-![](./Users/xlisp/Desktop/limit.gif)
+![](./limit.gif)
 
