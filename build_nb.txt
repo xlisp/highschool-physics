@@ -1,0 +1,99 @@
+#!/usr/bin/env wolframscript
+(* Builder: 用微积分重新理解中学物理 *)
+
+path = "/Users/xlisp/MMAPro/highschool-physics/high-school-physics.nb";
+
+Hd = Cell[#, "Section"] &;
+Txt = Cell[#, "Text"] &;
+Inp = Cell[#, "Input"] &;
+
+cells = {
+
+Cell["用微积分重新理解中学物理", "Title"],
+Cell["High School Physics, Re-derived from Calculus —— 瞬时速度 / 运动学 / 牛顿定律 / 功与能 / 简谐运动,全部从极限与微积分推导", "Subtitle"],
+
+Txt["核心观点(源自一次群聊讨论):在不学微积分的前提下学物理,相当于退回到古希腊时代 —— 而阿基米德至少还发明了类似微积分的「穷竭法」。现代物理从一开始就和微积分绑定:牛顿表面上用古典几何做推导,私底下用的是微积分;否则连「瞬时速度」都无法定义。中学物理之所以常被吐槽「不讲理、很多东西解释不清楚、逻辑上有问题」,根源就是它把微积分藏了起来,只留下一堆需要背诵的公式。这个 notebook 的目的,是把藏起来的微积分重新摆回台面上。"],
+
+Txt["用法:菜单 Evaluation ▸ Evaluate Notebook 可一次性求值全部单元;带 Manipulate 的单元会生成可拖动的交互图,自己拖滑块体会极限/积分的含义。"],
+
+(* ============ 1 ============ *)
+Hd["一、瞬时速度:平均速度的极限"],
+Txt["中学想定义「某一时刻的速度」时其实是循环论证的:速度本来要用「走过的距离 ÷ 所用时间」来定义,可「某一时刻」意味着时间间隔为 0,而 0/0 没有意义。正确做法是:先算一小段时间内的平均速度 Δs/Δt,再让 Δt → 0 取极限。下面拖动 Δt,看割线(红)如何趋近某点的切线 —— 切线斜率就是瞬时速度。"],
+Inp["Manipulate[\n Module[{s, x0 = 1, slope},\n  s[t_] := t^2;\n  slope = (s[x0 + dt] - s[x0])/dt;\n  Plot[s[t], {t, 0, 3}, PlotRange -> {{0, 3}, {0, 9}},\n   Epilog -> {Red, Thick, Line[{{x0, s[x0]}, {x0 + dt, s[x0 + dt]}}],\n     Blue, PointSize[0.02], Point[{x0, s[x0]}], Point[{x0 + dt, s[x0 + dt]}]},\n   AxesLabel -> {\"t\", \"s\"}, ImageSize -> 430,\n   PlotLabel -> Row[{\"平均速度 \\[CapitalDelta]s/\\[CapitalDelta]t = \", NumberForm[N[slope], 4]}]]],\n {{dt, 1.5, \"\\[CapitalDelta]t\"}, 0.05, 2, 0.01}]"],
+Txt["把这个极限用符号算出来(取位置函数 s(t)=t²,看 t=x0 处):"],
+Inp["Limit[((x0 + dt)^2 - x0^2)/dt, dt -> 0]"],
+Txt["这个极限就是「导数」。所以瞬时速度的严格定义是 v(t) = ds/dt:"],
+Inp["s[t_] := t^2;\nD[s[t], t]"],
+
+(* ============ 2 ============ *)
+Hd["二、运动学三公式:不是背的,是积分出来的"],
+Txt["加速度是速度的导数 a = dv/dt = d²s/dt²。反过来,已知 a 求 v、再求 s,就是积分。中学那三条「匀变速直线运动公式」,本质是把常加速度积分两次的结果 —— 根本不需要记忆。"],
+Inp["ClearAll[v, x, a0, v0, x0];\nv[t_] := v0 + Integrate[a0, {s1, 0, t}];\nx[t_] := x0 + Integrate[v[s2], {s2, 0, t}];\n{v[t], x[t]}"],
+Txt["于是 v = v0 + a·t 和 x = x0 + v0·t + ½a·t² 自动浮现。下面把位移 / 速度 / 加速度画在一起,看它们逐级求导(或逐级积分)的关系:"],
+Inp["With[{a0 = 2, v0 = 1, x0 = 0},\n Plot[{x0 + v0 t + a0 t^2/2, v0 + a0 t, a0}, {t, 0, 5},\n  PlotLegends -> {\"位移 x(t)\", \"速度 v(t)\", \"加速度 a(t)\"},\n  AxesLabel -> {\"t\", \"\"}, ImageSize -> 470, PlotRange -> All]]"],
+
+(* ============ 3 ============ *)
+Hd["三、牛顿第二定律 = 一个微分方程"],
+Txt["F = ma 真正的样子是 m·d²x/dt² = F(x, v, t),一个二阶常微分方程。给定力的形式,解方程就得到运动规律。常力(如重力)的情形:"],
+Inp["DSolve[{m x''[t] == F0, x[0] == x0, x'[0] == v0}, x[t], t]"],
+Txt["中学不敢碰的「带阻力的运动」,在这里只是换一个右端项。设阻力与速度成正比 -b·v:"],
+Inp["DSolve[{m x''[t] == -b x'[t], x[0] == 0, x'[0] == v0}, x[t], t]"],
+Txt["代入数值看看速度如何被阻力「指数式」吃掉、位移趋于一个上限:"],
+Inp["sol = DSolve[{x''[t] == -0.5 x'[t], x[0] == 0, x'[0] == 10}, x, t];\nPlot[Evaluate[x[t] /. sol], {t, 0, 12}, AxesLabel -> {\"t\", \"x\"},\n PlotRange -> All, ImageSize -> 470, PlotStyle -> Thick]"],
+
+(* ============ 4 ============ *)
+Hd["四、自由落体与抛体:两个方向各自积分"],
+Txt["抛体运动 = 水平方向匀速 + 竖直方向匀加速,两个方向互相独立、各自积分。拖动初速度和发射角度,观察轨迹(抛物线本身就是积分的产物):"],
+Inp["Manipulate[\n Module[{g = 9.8, vx, vy, tf},\n  vx = v0 Cos[th Degree];\n  vy = v0 Sin[th Degree];\n  tf = 2 vy/g;\n  ParametricPlot[{vx t, vy t - g t^2/2}, {t, 0, tf},\n   PlotRange -> {{0, 170}, {0, 95}}, AspectRatio -> 95/170,\n   AxesLabel -> {\"x / m\", \"y / m\"}, ImageSize -> 500, PlotStyle -> Thick]],\n {{v0, 30, \"初速 v0\"}, 10, 40}, {{th, 45, \"角度 \\[Theta]\\[Degree]\"}, 10, 80}]"],
+
+(* ============ 5 ============ *)
+Hd["五、功与能:力对位移的积分"],
+Txt["功的真正定义是 W = ∫ F·dx。当力是恒力时它退化成中学的 W = F·d;但只要力会变(比如弹簧),就必须积分。恒力:"],
+Inp["Integrate[F, {x, 0, d}]"],
+Txt["弹簧力 F = k·x(随形变线性增大),拉伸到 X 做的功:"],
+Inp["Integrate[k x, {x, 0, X}]"],
+Txt["得到 ½kX²,正是弹性势能公式。动能定理同样是积分换元的结果:W = ∫F dx = ∫ m(dv/dt) dx = ∫ m·v dv。"],
+Inp["Integrate[m v, {v, v1, v2}]"],
+Txt["结果 ½m(v₂² − v₁²) 就是动能的变化 ΔE_k —— 动能定理被积分「证」了出来,而不是空降的公式。"],
+
+(* ============ 6 ============ *)
+Hd["六、冲量与动量:力对时间的积分"],
+Txt["冲量 J = ∫ F·dt = Δp。恒力时 J = F·t(中学版本);变力则必须积分。恒力:"],
+Inp["Integrate[F0, {t, 0, T}]"],
+Txt["一个随时间变化的力(半个周期的正弦冲击,例如碰撞中的力)的冲量:"],
+Inp["Integrate[F0 Sin[w t], {t, 0, Pi/w}, Assumptions -> w > 0]"],
+
+(* ============ 7 ============ *)
+Hd["七、简谐运动 = 二阶微分方程的解"],
+Txt["弹簧振子满足 m·x'' = -k·x。中学只给你结论 x = A·cos(ωt),却说不清 ω 为什么等于 √(k/m)。在这里直接解这个微分方程,ω 自己就跑出来了:"],
+Inp["DSolve[{m x''[t] == -k x[t], x[0] == A, x'[0] == 0}, x[t], t]"],
+Txt["解是 A·cos(√(k/m)·t),即角频率 ω = √(k/m)。拖动振幅、劲度系数、质量,看周期与振幅如何随之改变:"],
+Inp["Manipulate[\n Plot[A Cos[Sqrt[k/m] t], {t, 0, 4 Pi},\n  PlotRange -> {-3, 3}, AxesLabel -> {\"t\", \"x\"},\n  ImageSize -> 470, PlotStyle -> Thick],\n {{A, 2, \"振幅 A\"}, 0.5, 3}, {{k, 1, \"劲度 k\"}, 0.2, 5}, {{m, 1, \"质量 m\"}, 0.2, 5}]"],
+
+(* ============ 8 ============ *)
+Hd["八、万有引力:圆轨道速度与逃逸速度"],
+Txt["圆轨道:引力提供向心力,GMm/r² = mv²/r,解出绕行速度:"],
+Inp["Solve[G M m/r^2 == m v^2/r, v]"],
+Txt["逃逸速度:把物体从 R 搬到无穷远,克服引力所做的功是对 1/r² 力的积分(中学完全无法处理变力做功,只能死记结论):"],
+Inp["W = Integrate[G M m/r^2, {r, R, Infinity}, Assumptions -> R > 0];\nSolve[(1/2) m vesc^2 == W, vesc]"],
+Txt["得到 v_esc = √(2GM/R)。整个过程没有任何「背公式」,只有一次积分加一次能量守恒。"],
+
+(* ============ 结语 ============ *)
+Hd["结语:把微积分摆回台面"],
+Txt["回头看会发现,中学物理的每一条公式都有了来历:瞬时速度 = 导数;运动学三公式 = 对加速度积分两次;牛顿第二定律 = 二阶微分方程;功 = ∫F dx;动能定理 = 积分换元;简谐运动 = 解微分方程;逃逸速度 = 变力做功的积分。一旦微积分到场,物理就从「一堆不讲理、要硬背的符号」变回「一条自洽的逻辑链」—— 这正是牛顿当年私底下做的事。"]
+
+};
+
+nb = Notebook[cells,
+  WindowSize -> {1100, 820},
+  WindowMargins -> {{Automatic, Automatic}, {Automatic, Automatic}},
+  StyleDefinitions -> "Default.nb"];
+
+UsingFrontEnd[
+  obj = NotebookPut[nb];
+  NotebookSave[obj, path];
+  NotebookClose[obj];
+];
+
+Print["WROTE: ", path];
+Print["BYTES: ", FileByteCount[path]];

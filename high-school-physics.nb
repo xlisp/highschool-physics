@@ -10,30 +10,658 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1365,         48]
-NotebookOptionsPosition[       894,         31]
-NotebookOutlinePosition[      1290,         47]
-CellTagsIndexPosition[      1247,         44]
+NotebookDataLength[     43681,        744]
+NotebookOptionsPosition[     38179,        659]
+NotebookOutlinePosition[     38586,        675]
+CellTagsIndexPosition[     38543,        672]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell[BoxData["1"], "Input",
- CellChangeTimes->{3.991120392617078*^9},
- CellLabel->"In[1]:=",ExpressionUUID->"783adb55-dd12-4e90-a561-e4f42c428eaa"],
+Cell["\[CCedilla]\.94\[DoubleDot]\[ARing]\.be\[RegisteredTrademark]\[CCedilla]\
+\[Section]\.af\[ARing]\.88\.86\[EAcute]\.87\.8d\[AE]\.96\[Degree]\[CCedilla]\
+\.90\.86\[EGrave]\[Section]\[Sterling]\[ADoubleDot]\[Cedilla]\
+\[DiscretionaryHyphen]\[ARing]\[DiscretionaryHyphen]\.a6\[CCedilla]\.89\
+\[Copyright]\[CCedilla]\.90\.86", "Title",ExpressionUUID->"3df337e3-9b7d-4982-\
+b2e7-f5f50528a2de"],
 
-Cell[BoxData["1"], "Output",
- CellChangeTimes->{3.991120393904076*^9},
- CellLabel->"Out[1]=",ExpressionUUID->"269b72ed-051b-45a5-b46c-d88dbc3233f8"]
+Cell["\<\
+High School Physics, Re-derived from Calculus \[AHat]\.80\.94\[AHat]\.80\.94 \
+\[CCedilla]\.9e\[Not]\[AE]\.97\[Paragraph]\[EAcute]\.80\.9f\[ARing]\.ba\.a6 / \
+\[EGrave]\[DownQuestion]\.90\[ARing]\.8a\[DoubleDot]\[ARing]\
+\[DiscretionaryHyphen]\.a6 / \[CCedilla]\.89\.9b\[EAcute]\[DownExclamation]\
+\[DownQuestion]\[ARing]\[RegisteredTrademark]\.9a\[ARing]\.be\.8b / \[ARing]\
+\.8a\.9f\[ADoubleDot]\[Cedilla]\.8e\[EGrave]\.83\.bd / \[CCedilla]\
+\[RegisteredTrademark]\.80\[EGrave]\[Degree]\.90\[EGrave]\[DownQuestion]\.90\
+\[ARing]\.8a\[DoubleDot],\[ARing]\.85\[DoubleDot]\[EAcute]\.83\[DoubleDot]\
+\[ADoubleDot]\[RightGuillemet]\.8e\[AE]\.9e\.81\[EAcute]\.99\.90\[ADoubleDot]\
+\[Cedilla]\.8e\[ARing]\.be\[RegisteredTrademark]\[CCedilla]\[Section]\.af\
+\[ARing]\.88\.86\[AE]\.8e\[DoubleDot]\[ARing]\.af\.bc\
+\>", "Subtitle",ExpressionUUID->"19be7da1-f686-4d87-a845-85ebcd969c32"],
+
+Cell["\<\
+\[AE]\[NonBreakingSpace]\[Cedilla]\[ARing]\[DownQuestion]\.83\[EGrave]\
+\[Section]\.82\[CCedilla]\.82\.b9(\[AE]\.ba\.90\[EGrave]\.87\.aa\[ADoubleDot]\
+\[Cedilla]\.80\[AE]\[Not]\[DownExclamation]\[CCedilla]\.be\[Currency]\[EGrave]\
+\.81\.8a\[EGrave]\[RegisteredTrademark]\[DoubleDot]\[EGrave]\
+\[RegisteredTrademark]\.ba):\[ARing]\.9c\[DoubleDot]\[ADoubleDot]\[Cedilla]\
+\.8d\[ARing]\[DiscretionaryHyphen]\.a6\[ARing]\.be\[RegisteredTrademark]\
+\[CCedilla]\[Section]\.af\[ARing]\.88\.86\[CCedilla]\.9a\.84\[ARing]\.89\.8d\
+\[AE]\.8f\.90\[ADoubleDot]\[Cedilla]\.8b\[ARing]\[DiscretionaryHyphen]\.a6\
+\[CCedilla]\.89\[Copyright]\[CCedilla]\.90\.86,\[CCedilla]\.9b\[Cedilla]\
+\[ARing]\.bd\.93\[ADoubleDot]\.ba\.8e\[EAcute]\.80\.80\[ARing]\.9b\.9e\[ARing]\
+\.88\[Degree]\[ARing]\.8f\[Currency]\[ARing]\[Cedilla]\.8c\[EGrave]\.85\.8a\
+\[AE]\.97\[Paragraph]\[ADoubleDot]\[RightGuillemet]\[Sterling] \
+\[AHat]\.80\.94\[AHat]\.80\.94 \[EGrave]\.80\.8c\[EAcute]\.98\[DownQuestion]\
+\[ARing]\.9f\.ba\[CCedilla]\[PlusMinus]\.b3\[ARing]\.be\[CenterDot]\[EGrave]\
+\.87\.b3\[ARing]\[Degree]\.91\[EGrave]\[DownQuestion]\.98\[ARing]\.8f\.91\[AE]\
+\.98\.8e\[ADoubleDot]\.ba\.86\[CCedilla]\[PlusMinus]\[RightGuillemet]\
+\[ADoubleDot]\.bc\.bc\[ARing]\.be\[RegisteredTrademark]\[CCedilla]\[Section]\
+\.af\[ARing]\.88\.86\[CCedilla]\.9a\.84\[ATilde]\.80\.8c\[CCedilla]\
+\[Copyright]\[CenterDot]\[CCedilla]\[LeftGuillemet]\[DiscretionaryHyphen]\[AE]\
+\.b3\.95\[ATilde]\.80\.8d\[ATilde]\.80\.82\[CCedilla]\.8e\[Degree]\
+\[ADoubleDot]\[RightGuillemet]\[Sterling]\[CCedilla]\.89\[Copyright]\
+\[CCedilla]\.90\.86\[ADoubleDot]\[RightGuillemet]\.8e\[ADoubleDot]\[Cedilla]\
+\.80\[ARing]\.bc\.80\[ARing]\[Section]\.8b\[ARing]\[Degree]\[PlusMinus]\
+\[ARing]\.92\.8c\[ARing]\.be\[RegisteredTrademark]\[CCedilla]\[Section]\.af\
+\[ARing]\.88\.86\[CCedilla]\[RightGuillemet]\.91\[ARing]\[RegisteredTrademark]\
+\.9a:\[CCedilla]\.89\.9b\[EAcute]\[DownExclamation]\[DownQuestion]\[EGrave]\
+\[DownExclamation]\[DoubleDot]\[EAcute]\.9d\[Cent]\[ADoubleDot]\[Cedilla]\.8a\
+\[CCedilla]\.94\[DoubleDot]\[ARing]\.8f\[Currency]\[ARing]\.85\[Cedilla]\
+\[ARing]\.87\[NonBreakingSpace]\[ADoubleDot]\.bd\.95\[ARing]\.81\.9a\[AE]\.8e\
+\[DoubleDot]\[ARing]\.af\.bc,\[CCedilla]\[Section]\.81\[ARing]\.ba\.95\
+\[ADoubleDot]\[Cedilla]\.8b\[CCedilla]\.94\[DoubleDot]\[CCedilla]\.9a\.84\[AE]\
+\.98\.af\[ARing]\.be\[RegisteredTrademark]\[CCedilla]\[Section]\.af\[ARing]\
+\.88\.86;\[ARing]\.90\.a6\[ARing]\.88\.99\[EGrave]\[DownQuestion]\.9e\[ATilde]\
+\.80\.8c\[CCedilla]\.9e\[Not]\[AE]\.97\[Paragraph]\[EAcute]\.80\.9f\[ARing]\
+\.ba\.a6\[ATilde]\.80\.8d\[EAcute]\.83\.bd\[AE]\.97\[NonBreakingSpace]\[AE]\
+\.b3\.95\[ARing]\[RegisteredTrademark]\.9a\[ADoubleDot]\.b9\.89\[ATilde]\.80\
+\.82\[ADoubleDot]\[Cedilla]\[DiscretionaryHyphen]\[ARing]\
+\[DiscretionaryHyphen]\.a6\[CCedilla]\.89\[Copyright]\[CCedilla]\.90\.86\
+\[ADoubleDot]\.b9\.8b\[AE]\.89\.80\[ADoubleDot]\[RightGuillemet]\[Yen]\[ARing]\
+\[Cedilla]\[Cedilla]\[EGrave]\[Cent]\[LeftGuillemet]\[ARing]\.90\.90\[AE]\
+\[Section]\.bd\[ATilde]\.80\.8c\[ADoubleDot]\[Cedilla]\.8d\[EGrave]\
+\[RegisteredTrademark]\.b2\[CCedilla]\.90\.86\[ATilde]\.80\.81\[ARing]\.be\.88\
+\[ARing]\[Currency]\.9a\[ADoubleDot]\[Cedilla]\.9c\[EGrave]\[Yen]\
+\[DownQuestion]\[EGrave]\[Section]\[Sterling]\[EAcute]\.87\.8a\[ADoubleDot]\
+\[Cedilla]\.8d\[AE]\[Cedilla]\.85\[AE]\[Yen]\.9a\[ATilde]\.80\.81\[EAcute]\.80\
+\[RightGuillemet]\[EGrave]\.be\.91\[ADoubleDot]\[Cedilla]\.8a\[AE]\.9c\.89\
+\[EAcute]\.97\[RegisteredTrademark]\[EAcute]\[Cent]\.98\[ATilde]\.80\.8d,\[AE]\
+\[NonBreakingSpace]\.b9\[AE]\.ba\.90\[ARing]\[Degree]\[PlusMinus]\[AE]\.98\.af\
+\[ARing]\[RegisteredTrademark]\.83\[AE]\.8a\.8a\[ARing]\.be\
+\[RegisteredTrademark]\[CCedilla]\[Section]\.af\[ARing]\.88\.86\[EGrave]\.97\
+\.8f\[ADoubleDot]\.ba\.86\[EGrave]\[Micro]\[CenterDot]\[AE]\.9d\[Yen],\[ARing]\
+\.8f\.aa\[CCedilla]\.95\.99\[ADoubleDot]\[Cedilla]\.8b\[ADoubleDot]\[Cedilla]\
+\.80\[ARing]\[NonBreakingSpace]\.86\[EAcute]\.9c\.80\[EGrave]\.a6\.81\[EGrave]\
+\.83\.8c\[EGrave]\.af\[Micro]\[CCedilla]\.9a\.84\[ARing]\.85\[Not]\[ARing]\.bc\
+\.8f\[ATilde]\.80\.82\[EGrave]\[DownQuestion]\.99\[ADoubleDot]\[Cedilla]\.aa \
+notebook \[CCedilla]\.9a\.84\[CCedilla]\.9b\[RegisteredTrademark]\[CCedilla]\
+\.9a\.84,\[AE]\.98\.af\[AE]\.8a\.8a\[EGrave]\.97\.8f\[EGrave]\[Micro]\
+\[CenterDot]\[AE]\.9d\[Yen]\[CCedilla]\.9a\.84\[ARing]\.be\
+\[RegisteredTrademark]\[CCedilla]\[Section]\.af\[ARing]\.88\.86\[EAcute]\.87\
+\.8d\[AE]\.96\[Degree]\[AE]\.91\.86\[ARing]\.9b\.9e\[ARing]\.8f\[Degree]\
+\[EAcute]\.9d\[Cent]\[ADoubleDot]\[Cedilla]\.8a\[ATilde]\.80\.82\
+\>", "Text",ExpressionUUID->"349ccba2-3767-4b04-bb9f-17e1f65f4563"],
+
+Cell["\<\
+\[CCedilla]\.94\[DoubleDot]\[AE]\.b3\.95:\[EGrave]\.8f\.9c\[ARing]\.8d\.95 \
+Evaluation \[AHat]\.96\[Cedilla] Evaluate Notebook \[ARing]\.8f\.af\
+\[ADoubleDot]\[Cedilla]\.80\[AE]\[Not]\[DownExclamation]\[AE]\.80\[Section]\
+\[AE]\[PlusMinus]\.82\[ARing]\.80\.bc\[ARing]\.85\[DoubleDot]\[EAcute]\.83\
+\[DoubleDot]\[ARing]\.8d\.95\[ARing]\.85\.83;\[ARing]\[Cedilla]\.a6 \
+Manipulate \[CCedilla]\.9a\.84\[ARing]\.8d\.95\[ARing]\.85\.83\[ADoubleDot]\
+\.bc\.9a\[CCedilla]\.94\.9f\[AE]\.88\.90\[ARing]\.8f\.af\[AE]\.8b\.96\[ARing]\
+\.8a\[DoubleDot]\[CCedilla]\.9a\.84\[ADoubleDot]\.ba\[Currency]\[ADoubleDot]\
+\.ba\.92\[ARing]\.9b\.be,\[EGrave]\.87\.aa\[ARing]\[CenterDot]\[PlusMinus]\
+\[AE]\.8b\.96\[AE]\[RightGuillemet]\.91\[ARing]\.9d\.97\[ADoubleDot]\.bd\.93\
+\[ADoubleDot]\.bc\.9a\[AE]\.9e\.81\[EAcute]\.99\.90/\[CCedilla]\[Section]\.af\
+\[ARing]\.88\.86\[CCedilla]\.9a\.84\[ARing]\.90\[LeftGuillemet]\[ADoubleDot]\
+\.b9\.89\[ATilde]\.80\.82\
+\>", "Text",ExpressionUUID->"c87e7e45-71b8-4a33-ab7d-fbb3be630d70"],
+
+Cell[CellGroupData[{
+
+Cell["\[ADoubleDot]\[Cedilla]\.80\[ATilde]\.80\.81\[CCedilla]\.9e\[Not]\[AE]\
+\.97\[Paragraph]\[EAcute]\.80\.9f\[ARing]\.ba\.a6:\[ARing]\.b9\.b3\[ARing]\.9d\
+\.87\[EAcute]\.80\.9f\[ARing]\.ba\.a6\[CCedilla]\.9a\.84\[AE]\.9e\.81\[EAcute]\
+\.99\.90", "Section",ExpressionUUID->"b94a9a8b-3270-4ad0-901f-34233bb3bac7"],
+
+Cell["\<\
+\[ADoubleDot]\[Cedilla]\[DiscretionaryHyphen]\[ARing]\[DiscretionaryHyphen]\
+\.a6\[AE]\.83\.b3\[ARing]\[RegisteredTrademark]\.9a\[ADoubleDot]\.b9\.89\
+\[ATilde]\.80\.8c\[AE]\.9f\.90\[ADoubleDot]\[Cedilla]\.80\[AE]\.97\[Paragraph]\
+\[ARing]\.88\[RightGuillemet]\[CCedilla]\.9a\.84\[EAcute]\.80\.9f\[ARing]\.ba\
+\.a6\[ATilde]\.80\.8d\[AE]\.97\[Paragraph]\[ARing]\.85\[Paragraph]\[ARing]\
+\[RegisteredTrademark]\.9e\[AE]\.98\.af\[ARing]\.be\.aa\[CCedilla]\.8e\.af\
+\[EGrave]\[RegisteredTrademark]\.ba\[EGrave]\.af\.81\[CCedilla]\.9a\.84:\
+\[EAcute]\.80\.9f\[ARing]\.ba\.a6\[AE]\.9c\[Not]\[AE]\.9d\[Yen]\[EGrave]\.a6\
+\.81\[CCedilla]\.94\[DoubleDot]\[ATilde]\.80\.8c\[EGrave]\[Micro]\[Degree]\
+\[EGrave]\[DownQuestion]\.87\[CCedilla]\.9a\.84\[EGrave]\[CenterDot]\.9d\
+\[CCedilla]\.a6\[RightGuillemet] \[CapitalATilde]\[CenterDot] \[AE]\.89\.80\
+\[CCedilla]\.94\[DoubleDot]\[AE]\.97\[Paragraph]\[EAcute]\.97\.b4\[ATilde]\.80\
+\.8d\[AE]\.9d\[Yen]\[ARing]\[RegisteredTrademark]\.9a\[ADoubleDot]\.b9\.89,\
+\[ARing]\.8f\.af\[ATilde]\.80\.8c\[AE]\.9f\.90\[ADoubleDot]\[Cedilla]\.80\[AE]\
+\.97\[Paragraph]\[ARing]\.88\[RightGuillemet]\[ATilde]\.80\.8d\[AE]\.84\.8f\
+\[ARing]\.91\.b3\[CCedilla]\.9d\.80\[AE]\.97\[Paragraph]\[EAcute]\.97\.b4\
+\[EAcute]\.97\.b4\[EAcute]\.9a\.94\[ADoubleDot]\[Cedilla]\.ba 0,\[EGrave]\.80\
+\.8c 0/0 \[AE]\.b2\[DownExclamation]\[AE]\.9c\.89\[AE]\.84\.8f\[ADoubleDot]\
+\.b9\.89\[ATilde]\.80\.82\[AE]\[DiscretionaryHyphen]\[Sterling]\[CCedilla]\
+\[DownExclamation]\[RegisteredTrademark]\[ARing]\.81\.9a\[AE]\.b3\.95\[AE]\.98\
+\.af:\[ARing]\.85\.88\[CCedilla]\[RegisteredTrademark]\.97\[ADoubleDot]\
+\[Cedilla]\.80\[ARing]\[Degree]\.8f\[AE]\[RegisteredTrademark]\[Micro]\[AE]\
+\.97\[Paragraph]\[EAcute]\.97\.b4\[ARing]\.86\.85\[CCedilla]\.9a\.84\[ARing]\
+\.b9\.b3\[ARing]\.9d\.87\[EAcute]\.80\.9f\[ARing]\.ba\.a6 \
+\[CapitalIHat]\.94s/\[CapitalIHat]\.94t,\[ARing]\.86\.8d\[EGrave]\
+\[RegisteredTrademark]\[Copyright] \[CapitalIHat]\.94t \[AHat]\.86\.92 0 \
+\[ARing]\.8f\.96\[AE]\.9e\.81\[EAcute]\.99\.90\[ATilde]\.80\.82\[ADoubleDot]\
+\[Cedilla]\.8b\[EAcute]\.9d\[Cent]\[AE]\.8b\.96\[ARing]\.8a\[DoubleDot] \
+\[CapitalIHat]\.94t,\[CCedilla]\.9c\.8b\[ARing]\.89\.b2\[CCedilla]\.ba\
+\[DownQuestion](\[CCedilla]\.ba\[Cent])\[ARing]\.a6\.82\[ADoubleDot]\.bd\.95\
+\[EGrave]\[Paragraph]\.8b\[EGrave]\[DownQuestion]\.91\[AE]\.9f\.90\[CCedilla]\
+\.82\.b9\[CCedilla]\.9a\.84\[ARing]\.88\.87\[CCedilla]\.ba\[DownQuestion] \
+\[AHat]\.80\.94\[AHat]\.80\.94 \[ARing]\.88\.87\[CCedilla]\.ba\[DownQuestion]\
+\[AE]\.96\.9c\[CCedilla]\.8e\.87\[ARing]\[Degree]\[PlusMinus]\[AE]\.98\.af\
+\[CCedilla]\.9e\[Not]\[AE]\.97\[Paragraph]\[EAcute]\.80\.9f\[ARing]\.ba\.a6\
+\[ATilde]\.80\.82\
+\>", "Text",ExpressionUUID->"c89fb250-b7ed-4f9a-8af1-425e36cbf4d0"],
+
+Cell["\<\
+Manipulate[
+ Module[{s, x0 = 1, slope},
+  s[t_] := t^2;
+  slope = (s[x0 + dt] - s[x0])/dt;
+  Plot[s[t], {t, 0, 3}, PlotRange -> {{0, 3}, {0, 9}},
+   Epilog -> {Red, Thick, Line[{{x0, s[x0]}, {x0 + dt, s[x0 + dt]}}],
+     Blue, PointSize[0.02], Point[{x0, s[x0]}], Point[{x0 + dt, s[x0 + \
+dt]}]},
+   AxesLabel -> {\"t\", \"s\"}, ImageSize -> 430,
+   PlotLabel -> Row[{\"\[ARing]\.b9\.b3\[ARing]\.9d\.87\[EAcute]\.80\.9f\
+\[ARing]\.ba\.a6 \[CapitalDelta]s/\[CapitalDelta]t = \", NumberForm[N[slope], \
+4]}]]],
+ {{dt, 1.5, \"\[CapitalDelta]t\"}, 0.05, 2, 0.01}]\
+\>", "Input",ExpressionUUID->"dc2dec4b-9f18-4419-8ffe-44efc19b0d6e"],
+
+Cell["\<\
+\[AE]\.8a\.8a\[EGrave]\[DownQuestion]\.99\[ADoubleDot]\[Cedilla]\.aa\[AE]\.9e\
+\.81\[EAcute]\.99\.90\[CCedilla]\.94\[DoubleDot]\[CCedilla]\[Not]\.a6\[ARing]\
+\.8f\[CenterDot]\[CCedilla]\[RegisteredTrademark]\.97\[ARing]\.87\.ba\[AE]\.9d\
+\[Yen](\[ARing]\.8f\.96\[ADoubleDot]\.bd\.8d\[CCedilla]\.bd\
+\[RegisteredTrademark]\[ARing]\.87\.bd\[AE]\.95\[Degree] s(t)=t\[CapitalAHat]\
+\.b2,\[CCedilla]\.9c\.8b t=x0 \[ARing]\[Currency]\.84):\
+\>", "Text",ExpressionUUID->"e24445d6-ad96-4df0-8813-09b12a6640ea"],
+
+Cell["Limit[((x0 + dt)^2 - x0^2)/dt, dt -> 0]", "Input",ExpressionUUID->"01b73e21-7011-4edc-b71e-5dffdb4e76c0"],
+
+Cell["\<\
+\[EGrave]\[DownQuestion]\.99\[ADoubleDot]\[Cedilla]\.aa\[AE]\.9e\.81\[EAcute]\
+\.99\.90\[ARing]\[Degree]\[PlusMinus]\[AE]\.98\.af\[ATilde]\.80\.8c\[ARing]\
+\.af\.bc\[AE]\.95\[Degree]\[ATilde]\.80\.8d\[ATilde]\.80\.82\[AE]\.89\.80\
+\[ADoubleDot]\[RightGuillemet]\[Yen]\[CCedilla]\.9e\[Not]\[AE]\.97\[Paragraph]\
+\[EAcute]\.80\.9f\[ARing]\.ba\.a6\[CCedilla]\.9a\.84\[ADoubleDot]\[Cedilla]\
+\[Yen]\[AE]\[NonBreakingSpace]\.bc\[ARing]\[RegisteredTrademark]\.9a\
+\[ADoubleDot]\.b9\.89\[AE]\.98\.af v(t) = ds/dt:\
+\>", "Text",ExpressionUUID->"ce357db7-90ca-459b-85e1-680ec74c70c7"],
+
+Cell["\<\
+s[t_] := t^2;
+D[s[t], t]\
+\>", "Input",ExpressionUUID->"e63c950a-1816-4df4-8c35-93ca3c03f093"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\[ADoubleDot]\.ba\.8c\[ATilde]\.80\.81\[EGrave]\[DownQuestion]\.90\
+\[ARing]\.8a\[DoubleDot]\[ARing]\[DiscretionaryHyphen]\.a6\[ADoubleDot]\
+\[Cedilla]\.89\[ARing]\.85\[Not]\[ARing]\.bc\.8f:\[ADoubleDot]\[Cedilla]\.8d\
+\[AE]\.98\.af\[EGrave]\.83\.8c\[CCedilla]\.9a\.84,\[AE]\.98\.af\[CCedilla]\
+\[Section]\.af\[ARing]\.88\.86\[ARing]\.87\.ba\[AE]\.9d\[Yen]\[CCedilla]\.9a\
+\.84", "Section",ExpressionUUID->"5ec3525e-df57-4f1e-b8dc-f3b8f10f9a00"],
+
+Cell["\<\
+\[ARing]\.8a\[NonBreakingSpace]\[EAcute]\.80\.9f\[ARing]\.ba\.a6\[AE]\.98\.af\
+\[EAcute]\.80\.9f\[ARing]\.ba\.a6\[CCedilla]\.9a\.84\[ARing]\.af\.bc\[AE]\.95\
+\[Degree] a = dv/dt = d\[CapitalAHat]\.b2s/dt\[CapitalAHat]\.b2\[ATilde]\.80\
+\.82\[ARing]\.8f\.8d\[EGrave]\[DownQuestion]\.87\[AE]\.9d\[Yen],\[ARing]\
+\[CenterDot]\.b2\[CCedilla]\.9f\[Yen] a \[AE]\[PlusMinus]\.82 v\[ATilde]\.80\
+\.81\[ARing]\.86\.8d\[AE]\[PlusMinus]\.82 \
+s,\[ARing]\[Degree]\[PlusMinus]\[AE]\.98\.af\[CCedilla]\[Section]\.af\[ARing]\
+\.88\.86\[ATilde]\.80\.82\[ADoubleDot]\[Cedilla]\[DiscretionaryHyphen]\[ARing]\
+\[DiscretionaryHyphen]\.a6\[EAcute]\.82\[Sterling]\[ADoubleDot]\[Cedilla]\.89\
+\[AE]\.9d\[DownExclamation]\[ATilde]\.80\.8c\[ARing]\.8c\.80\[ARing]\.8f\.98\
+\[EAcute]\.80\.9f\[CCedilla]\.9b\.b4\[CCedilla]\.ba\[DownQuestion]\[EGrave]\
+\[DownQuestion]\.90\[ARing]\.8a\[DoubleDot]\[ARing]\.85\[Not]\[ARing]\.bc\.8f\
+\[ATilde]\.80\.8d,\[AE]\.9c\[Not]\[EGrave]\.b4\[DoubleDot]\[AE]\.98\.af\[AE]\
+\.8a\.8a\[ARing]\[Cedilla]\[Cedilla]\[ARing]\.8a\[NonBreakingSpace]\[EAcute]\
+\.80\.9f\[ARing]\.ba\.a6\[CCedilla]\[Section]\.af\[ARing]\.88\.86\[ADoubleDot]\
+\[Cedilla]\[Currency]\[AE]\[Not]\[DownExclamation]\[CCedilla]\.9a\.84\
+\[CCedilla]\[RightGuillemet]\.93\[AE]\.9e\.9c \[AHat]\.80\.94\[AHat]\.80\.94 \
+\[AE]\[NonBreakingSpace]\.b9\[AE]\.9c\[Not]\[ADoubleDot]\[Cedilla]\.8d\
+\[EAcute]\.9c\.80\[EGrave]\.a6\.81\[EGrave]\[RegisteredTrademark]\[Degree]\
+\[ARing]\[DownQuestion]\.86\[ATilde]\.80\.82\
+\>", "Text",ExpressionUUID->"6d4a3450-78d8-4b52-8c25-dec375c46e47"],
+
+Cell["\<\
+ClearAll[v, x, a0, v0, x0];
+v[t_] := v0 + Integrate[a0, {s1, 0, t}];
+x[t_] := x0 + Integrate[v[s2], {s2, 0, t}];
+{v[t], x[t]}\
+\>", "Input",ExpressionUUID->"27bbd89d-6e3f-4b26-a842-ceec53662dc3"],
+
+Cell["\<\
+\[ADoubleDot]\.ba\.8e\[AE]\.98\.af v = v0 + a\[CapitalAHat]\[CenterDot]t \
+\[ARing]\.92\.8c x = x0 + v0\[CapitalAHat]\[CenterDot]t + \[CapitalAHat]\.bda\
+\[CapitalAHat]\[CenterDot]t\[CapitalAHat]\.b2 \[EGrave]\.87\.aa\[ARing]\.8a\
+\[DoubleDot]\[AE]\[Micro]\[RegisteredTrademark]\[CCedilla]\.8e\[Degree]\
+\[ATilde]\.80\.82\[ADoubleDot]\[Cedilla]\.8b\[EAcute]\.9d\[Cent]\[AE]\.8a\.8a\
+\[ADoubleDot]\.bd\.8d\[CCedilla]\[Section]\[RightGuillemet] / \[EAcute]\.80\
+\.9f\[ARing]\.ba\.a6 / \[ARing]\.8a\[NonBreakingSpace]\[EAcute]\.80\.9f\
+\[ARing]\.ba\.a6\[CCedilla]\.94\[RightGuillemet]\[ARing]\.9c\[DoubleDot]\
+\[ADoubleDot]\[Cedilla]\.80\[EGrave]\[Micro]\[CenterDot],\[CCedilla]\.9c\.8b\
+\[ARing]\[RegisteredTrademark]\.83\[ADoubleDot]\[RightGuillemet]\[Not]\
+\[EAcute]\.80\.90\[CCedilla]\.ba\[Section]\[AE]\[PlusMinus]\.82\[ARing]\.af\
+\.bc(\[AE]\.88\.96\[EAcute]\.80\.90\[CCedilla]\.ba\[Section]\[CCedilla]\
+\[Section]\.af\[ARing]\.88\.86)\[CCedilla]\.9a\.84\[ARing]\.85\.b3\[CCedilla]\
+\.b3\[RightGuillemet]:\
+\>", "Text",ExpressionUUID->"cf295c39-0661-469b-8873-eac34f878e4d"],
+
+Cell["\<\
+With[{a0 = 2, v0 = 1, x0 = 0},
+ Plot[{x0 + v0 t + a0 t^2/2, v0 + a0 t, a0}, {t, 0, 5},
+  PlotLegends -> {\"\[ADoubleDot]\.bd\.8d\[CCedilla]\[Section]\
+\[RightGuillemet] x(t)\", \"\[EAcute]\.80\.9f\[ARing]\.ba\.a6 v(t)\", \"\
+\[ARing]\.8a\[NonBreakingSpace]\[EAcute]\.80\.9f\[ARing]\.ba\.a6 a(t)\"},
+  AxesLabel -> {\"t\", \"\"}, ImageSize -> 470, PlotRange -> All]]\
+\>", "Input",ExpressionUUID->"933ace6c-ccb7-4a03-9553-d01f54e91e40"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\[ADoubleDot]\[Cedilla]\.89\[ATilde]\.80\.81\[CCedilla]\.89\.9b\[EAcute]\
+\[DownExclamation]\[DownQuestion]\[CCedilla]\[Not]\[Not]\[ADoubleDot]\.ba\.8c\
+\[ARing]\[RegisteredTrademark]\.9a\[ARing]\.be\.8b = \[ADoubleDot]\[Cedilla]\
+\.80\[ADoubleDot]\[Cedilla]\.aa\[ARing]\.be\[RegisteredTrademark]\[ARing]\.88\
+\.86\[AE]\.96\.b9\[CCedilla]\[DoubleDot]\.8b", "Section",ExpressionUUID->\
+"85ba25de-849e-41cd-8d36-9510c7d1a50a"],
+
+Cell["\<\
+F = ma \[CCedilla]\.9c\.9f\[AE]\[DiscretionaryHyphen]\[Sterling]\[CCedilla]\
+\.9a\.84\[AE]\[NonBreakingSpace]\[CenterDot]\[ARing]\[DiscretionaryHyphen]\.90\
+\[AE]\.98\.af \
+m\[CapitalAHat]\[CenterDot]d\[CapitalAHat]\.b2x/dt\[CapitalAHat]\.b2 = F(x, \
+v, t),\[ADoubleDot]\[Cedilla]\.80\[ADoubleDot]\[Cedilla]\.aa\[ADoubleDot]\.ba\
+\.8c\[EAcute]\.98\[Paragraph]\[ARing]\[Cedilla]\[Cedilla]\[ARing]\.be\
+\[RegisteredTrademark]\[ARing]\.88\.86\[AE]\.96\.b9\[CCedilla]\[DoubleDot]\.8b\
+\[ATilde]\.80\.82\[CCedilla]\[RightGuillemet]\.99\[ARing]\
+\[RegisteredTrademark]\.9a\[ARing]\.8a\.9b\[CCedilla]\.9a\.84\[ARing]\.bd\
+\[Cent]\[ARing]\.bc\.8f,\[EGrave]\[Section]\[Sterling]\[AE]\.96\.b9\[CCedilla]\
+\[DoubleDot]\.8b\[ARing]\[Degree]\[PlusMinus]\[ARing]\.be\.97\[ARing]\.88\
+\[Degree]\[EGrave]\[DownQuestion]\.90\[ARing]\.8a\[DoubleDot]\[EGrave]\
+\[Section]\.84\[ARing]\.be\.8b\[ATilde]\.80\.82\[ARing]\[Cedilla]\[Cedilla]\
+\[ARing]\.8a\.9b(\[ARing]\.a6\.82\[EAcute]\.87\.8d\[ARing]\.8a\.9b)\[CCedilla]\
+\.9a\.84\[AE]\.83\.85\[ARing]\.bd\[Cent]:\
+\>", "Text",ExpressionUUID->"1f6e8e47-db77-4886-ae0c-0ab1ec2be622"],
+
+Cell["DSolve[{m x''[t] == F0, x[0] == x0, x'[0] == v0}, x[t], t]", "Input",ExpressionUUID->"2f49f956-58d2-4fe6-ac7d-9d7b4667d74e"],
+
+Cell["\<\
+\[ADoubleDot]\[Cedilla]\[DiscretionaryHyphen]\[ARing]\[DiscretionaryHyphen]\
+\.a6\[ADoubleDot]\[Cedilla]\.8d\[AE]\.95\[Cent]\[CCedilla]\[Cent]\[Degree]\
+\[CCedilla]\.9a\.84\[ATilde]\.80\.8c\[ARing]\[Cedilla]\.a6\[EAcute]\.98\
+\[RightGuillemet]\[ARing]\.8a\.9b\[CCedilla]\.9a\.84\[EGrave]\[DownQuestion]\
+\.90\[ARing]\.8a\[DoubleDot]\[ATilde]\.80\.8d,\[ARing]\.9c\[DoubleDot]\
+\[EGrave]\[DownQuestion]\.99\[EAcute]\.87\.8c\[ARing]\.8f\.aa\[AE]\.98\.af\
+\[AE]\.8d\[Cent]\[ADoubleDot]\[Cedilla]\.80\[ADoubleDot]\[Cedilla]\.aa\[ARing]\
+\.8f\.b3\[CCedilla]\[LeftGuillemet]\.af\[EAcute]\[DownExclamation]\.b9\
+\[ATilde]\.80\.82\[EGrave]\[RegisteredTrademark]\.be\[EAcute]\.98\
+\[RightGuillemet]\[ARing]\.8a\.9b\[ADoubleDot]\[Cedilla]\.8e\[EAcute]\.80\.9f\
+\[ARing]\.ba\.a6\[AE]\.88\.90\[AE]\[DiscretionaryHyphen]\[Sterling]\[AE]\.af\
+\.94 -b\[CapitalAHat]\[CenterDot]v:\
+\>", "Text",ExpressionUUID->"5a8d8bdb-65d9-4364-8f56-09ddd431734e"],
+
+Cell["\<\
+DSolve[{m x''[t] == -b x'[t], x[0] == 0, x'[0] == v0}, x[t], t]\
+\>", "Input",ExpressionUUID->"3670f2ee-202f-47ba-a2d8-f79db76f7d35"],
+
+Cell["\<\
+\[ADoubleDot]\[RightGuillemet]\[Sterling]\[ARing]\.85\[Yen]\[AE]\.95\[Degree]\
+\[ARing]\.80\.bc\[CCedilla]\.9c\.8b\[CCedilla]\.9c\.8b\[EAcute]\.80\.9f\
+\[ARing]\.ba\.a6\[ARing]\.a6\.82\[ADoubleDot]\.bd\.95\[EGrave]\[Cent]\
+\[LeftGuillemet]\[EAcute]\.98\[RightGuillemet]\[ARing]\.8a\.9b\[ATilde]\.80\
+\.8c\[AE]\.8c\.87\[AE]\.95\[Degree]\[ARing]\.bc\.8f\[ATilde]\.80\.8d\[ARing]\
+\.90\.83\[AE]\.8e\.89\[ATilde]\.80\.81\[ADoubleDot]\.bd\.8d\[CCedilla]\
+\[Section]\[RightGuillemet]\[EGrave]\[Paragraph]\.8b\[ADoubleDot]\.ba\.8e\
+\[ADoubleDot]\[Cedilla]\.80\[ADoubleDot]\[Cedilla]\.aa\[ADoubleDot]\[Cedilla]\
+\.8a\[EAcute]\.99\.90:\
+\>", "Text",ExpressionUUID->"646e2e69-db6f-49b1-98d7-7df722167dab"],
+
+Cell["\<\
+sol = DSolve[{x''[t] == -0.5 x'[t], x[0] == 0, x'[0] == 10}, x, t];
+Plot[Evaluate[x[t] /. sol], {t, 0, 12}, AxesLabel -> {\"t\", \"x\"},
+ PlotRange -> All, ImageSize -> 470, PlotStyle -> Thick]\
+\>", "Input",ExpressionUUID->"7fa5d7ba-c66e-4a08-a2f7-56c24b7b757c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\[ARing]\.9b\.9b\[ATilde]\.80\.81\[EGrave]\.87\.aa\[CCedilla]\.94\
+\[PlusMinus]\[EGrave]\.90\.bd\[ADoubleDot]\.bd\.93\[ADoubleDot]\[Cedilla]\.8e\
+\[AE]\.8a\.9b\[ADoubleDot]\.bd\.93:\[ADoubleDot]\[Cedilla]\[Currency]\
+\[ADoubleDot]\[Cedilla]\.aa\[AE]\.96\.b9\[ARing]\.90\.91\[ARing]\.90\.84\
+\[EGrave]\.87\.aa\[CCedilla]\[Section]\.af\[ARing]\.88\.86", "Section",Express\
+ionUUID->"9a89f166-dffb-40f8-9f7f-37c1ffc54948"],
+
+Cell["\<\
+\[AE]\.8a\.9b\[ADoubleDot]\.bd\.93\[EGrave]\[DownQuestion]\.90\[ARing]\.8a\
+\[DoubleDot] = \
+\[AE]\[Degree]\.b4\[ARing]\.b9\.b3\[AE]\.96\.b9\[ARing]\.90\.91\[ARing]\.8c\
+\.80\[EAcute]\.80\.9f + \[CCedilla]\[LeftGuillemet]\.96\[CCedilla]\.9b\.b4\
+\[AE]\.96\.b9\[ARing]\.90\.91\[ARing]\.8c\.80\[ARing]\.8a\[NonBreakingSpace]\
+\[EAcute]\.80\.9f,\[ADoubleDot]\[Cedilla]\[Currency]\[ADoubleDot]\[Cedilla]\
+\.aa\[AE]\.96\.b9\[ARing]\.90\.91\[ADoubleDot]\.ba\.92\[CCedilla]\.9b\
+\[Cedilla]\[CCedilla]\.8b\[Not]\[CCedilla]\[LeftGuillemet]\.8b\[ATilde]\.80\
+\.81\[ARing]\.90\.84\[EGrave]\.87\.aa\[CCedilla]\[Section]\.af\[ARing]\.88\.86\
+\[ATilde]\.80\.82\[AE]\.8b\.96\[ARing]\.8a\[DoubleDot]\[ARing]\.88\.9d\
+\[EAcute]\.80\.9f\[ARing]\.ba\.a6\[ARing]\.92\.8c\[ARing]\.8f\.91\[ARing]\
+\[Degree]\.84\[EGrave]\[Section]\.92\[ARing]\.ba\.a6,\[EGrave]\[Section]\.82\
+\[ARing]\.af\.9f\[EGrave]\.bd\[DoubleDot]\[EGrave]\[DownQuestion]\.b9(\[AE]\
+\.8a\.9b\[CCedilla]\.89\[Copyright]\[CCedilla]\.ba\[DownQuestion]\[AE]\.9c\
+\[Not]\[EGrave]\.ba\[LeftGuillemet]\[ARing]\[Degree]\[PlusMinus]\[AE]\.98\.af\
+\[CCedilla]\[Section]\.af\[ARing]\.88\.86\[CCedilla]\.9a\.84\[ADoubleDot]\.ba\
+\[Section]\[CCedilla]\.89\[Copyright]):\
+\>", "Text",ExpressionUUID->"81843d8d-b2e1-46c0-8a60-ab6dc88414f8"],
+
+Cell["\<\
+Manipulate[
+ Module[{g = 9.8, vx, vy, tf},
+  vx = v0 Cos[th Degree];
+  vy = v0 Sin[th Degree];
+  tf = 2 vy/g;
+  ParametricPlot[{vx t, vy t - g t^2/2}, {t, 0, tf},
+   PlotRange -> {{0, 170}, {0, 95}}, AspectRatio -> 95/170,
+   AxesLabel -> {\"x / m\", \"y / m\"}, ImageSize -> 500, PlotStyle -> Thick]],
+ {{v0, 30, \"\[ARing]\.88\.9d\[EAcute]\.80\.9f v0\"}, 10, 40}, {{th, 45, \"\
+\[EGrave]\[Section]\.92\[ARing]\.ba\.a6 \\[Theta]\\[Degree]\"}, 10, 80}]\
+\>", "Input",ExpressionUUID->"b8afdf86-88d1-48c2-b7ea-bd7d0ec0cf23"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\[ADoubleDot]\.ba\.94\[ATilde]\.80\.81\[ARing]\.8a\.9f\[ADoubleDot]\
+\[Cedilla]\.8e\[EGrave]\.83\.bd:\[ARing]\.8a\.9b\[ARing]\.af\.b9\[ADoubleDot]\
+\.bd\.8d\[CCedilla]\[Section]\[RightGuillemet]\[CCedilla]\.9a\.84\[CCedilla]\
+\[Section]\.af\[ARing]\.88\.86", "Section",ExpressionUUID->"39703617-8469-\
+4785-9a91-ac266bab889f"],
+
+Cell["\<\
+\[ARing]\.8a\.9f\[CCedilla]\.9a\.84\[CCedilla]\.9c\.9f\[AE]\
+\[DiscretionaryHyphen]\[Sterling]\[ARing]\[RegisteredTrademark]\.9a\
+\[ADoubleDot]\.b9\.89\[AE]\.98\.af W = \[AHat]\.88\[LeftGuillemet] F\
+\[CapitalAHat]\[CenterDot]dx\[ATilde]\.80\.82\[ARing]\.bd\.93\[ARing]\.8a\.9b\
+\[AE]\.98\.af\[AE]\.81\.92\[ARing]\.8a\.9b\[AE]\.97\[Paragraph]\[ARing]\
+\[RegisteredTrademark]\.83\[EAcute]\.80\.80\[ARing]\.8c\.96\[AE]\.88\.90\
+\[ADoubleDot]\[Cedilla]\[DiscretionaryHyphen]\[ARing]\[DiscretionaryHyphen]\
+\.a6\[CCedilla]\.9a\.84 W = \
+F\[CapitalAHat]\[CenterDot]d;\[ADoubleDot]\.bd\.86\[ARing]\.8f\.aa\[EGrave]\
+\.a6\.81\[ARing]\.8a\.9b\[ADoubleDot]\.bc\.9a\[ARing]\.8f\.98(\[AE]\.af\.94\
+\[ARing]\.a6\.82\[ARing]\.bc\.b9\[CCedilla]\[Degree]\[Section]),\[ARing]\
+\[Degree]\[PlusMinus]\[ARing]\[DownQuestion]\.85\[EAcute]\[DownExclamation]\
+\[RightGuillemet]\[CCedilla]\[Section]\.af\[ARing]\.88\.86\[ATilde]\.80\.82\
+\[AE]\.81\.92\[ARing]\.8a\.9b:\
+\>", "Text",ExpressionUUID->"4b4ca9b4-38f7-4b19-bc07-2a41cb59b60b"],
+
+Cell["Integrate[F, {x, 0, d}]", "Input",ExpressionUUID->"fcc28bb7-33b6-4a5d-8825-3bca15c035a9"],
+
+Cell["\<\
+\[ARing]\.bc\.b9\[CCedilla]\[Degree]\[Section]\[ARing]\.8a\.9b F = k\
+\[CapitalAHat]\[CenterDot]x(\[EAcute]\.9a\.8f\[ARing]\.bd\[Cent]\[ARing]\.8f\
+\.98\[CCedilla]\.ba\[DownQuestion]\[AE]\.80\[Section]\[ARing]\[Cent]\.9e\
+\[ARing]\[Currency]\[Section]),\[AE]\.8b\.89\[ADoubleDot]\.bc\[Cedilla]\
+\[ARing]\.88\[Degree] X \[ARing]\.81\.9a\[CCedilla]\.9a\.84\[ARing]\.8a\.9f:\
+\>", "Text",ExpressionUUID->"b4d14538-ea7d-4922-a153-55c6fd431e9d"],
+
+Cell["Integrate[k x, {x, 0, X}]", "Input",ExpressionUUID->"dc8c0915-7571-499f-aac7-d76814354877"],
+
+Cell["\<\
+\[ARing]\.be\.97\[ARing]\.88\[Degree] \[CapitalAHat]\.bdkX\[CapitalAHat]\.b2,\
+\[AE]\[DiscretionaryHyphen]\[Sterling]\[AE]\.98\.af\[ARing]\.bc\.b9\[AE]\.80\
+\[Section]\[ARing]\.8a\[DownQuestion]\[EGrave]\.83\.bd\[ARing]\.85\[Not]\
+\[ARing]\.bc\.8f\[ATilde]\.80\.82\[ARing]\.8a\[DoubleDot]\[EGrave]\.83\.bd\
+\[ARing]\[RegisteredTrademark]\.9a\[CCedilla]\.90\.86\[ARing]\.90\.8c\[AE]\
+\[NonBreakingSpace]\[CenterDot]\[AE]\.98\.af\[CCedilla]\[Section]\.af\[ARing]\
+\.88\.86\[AE]\.8d\[Cent]\[ARing]\.85\.83\[CCedilla]\.9a\.84\[CCedilla]\
+\[RightGuillemet]\.93\[AE]\.9e\.9c:W = \[AHat]\.88\[LeftGuillemet]F dx = \
+\[AHat]\.88\[LeftGuillemet] m(dv/dt) dx = \[AHat]\.88\[LeftGuillemet] m\
+\[CapitalAHat]\[CenterDot]v dv\[ATilde]\.80\.82\
+\>", "Text",ExpressionUUID->"5f3c6e68-c1d9-45b2-9efc-ed4cd968d460"],
+
+Cell["Integrate[m v, {v, v1, v2}]", "Input",ExpressionUUID->"a548ed77-78c6-44d1-b172-4fbaf9916ccd"],
+
+Cell["\<\
+\[CCedilla]\[RightGuillemet]\.93\[AE]\.9e\.9c \
+\[CapitalAHat]\.bdm(v\[AHat]\.82\.82\[CapitalAHat]\.b2 \[AHat]\.88\.92 v\
+\[AHat]\.82\.81\[CapitalAHat]\.b2) \[ARing]\[Degree]\[PlusMinus]\[AE]\.98\.af\
+\[ARing]\.8a\[DoubleDot]\[EGrave]\.83\.bd\[CCedilla]\.9a\.84\[ARing]\.8f\.98\
+\[ARing]\.8c\.96 \[CapitalIHat]\.94E_k \[AHat]\.80\.94\[AHat]\.80\.94 \
+\[ARing]\.8a\[DoubleDot]\[EGrave]\.83\.bd\[ARing]\[RegisteredTrademark]\.9a\
+\[CCedilla]\.90\.86\[EGrave]\[Cent]\[LeftGuillemet]\[CCedilla]\[Section]\.af\
+\[ARing]\.88\.86\[ATilde]\.80\.8c\[EGrave]\.af\.81\[ATilde]\.80\.8d\
+\[ADoubleDot]\.ba\.86\[ARing]\.87\.ba\[AE]\.9d\[Yen],\[EGrave]\.80\.8c\
+\[ADoubleDot]\[Cedilla]\.8d\[AE]\.98\.af\[CCedilla]\[Copyright]\.ba\[EAcute]\
+\.99\.8d\[CCedilla]\.9a\.84\[ARing]\.85\[Not]\[ARing]\.bc\.8f\[ATilde]\.80\.82\
+\>", "Text",ExpressionUUID->"95a6ff08-0597-41ac-bb54-0226af21f8c3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\[ARing]\.85\[DiscretionaryHyphen]\[ATilde]\.80\.81\[ARing]\.86\.b2\
+\[EAcute]\.87\.8f\[ADoubleDot]\[Cedilla]\.8e\[ARing]\.8a\[DoubleDot]\[EAcute]\
+\.87\.8f:\[ARing]\.8a\.9b\[ARing]\.af\.b9\[AE]\.97\[Paragraph]\[EAcute]\.97\
+\.b4\[CCedilla]\.9a\.84\[CCedilla]\[Section]\.af\[ARing]\.88\.86", "Section",E\
+xpressionUUID->"ee6e0eeb-4a46-4a4a-bd13-559bd62b270c"],
+
+Cell["\<\
+\[ARing]\.86\.b2\[EAcute]\.87\.8f J = \[AHat]\.88\[LeftGuillemet] F\
+\[CapitalAHat]\[CenterDot]dt = \[CapitalIHat]\.94p\[ATilde]\.80\.82\[AE]\.81\
+\.92\[ARing]\.8a\.9b\[AE]\.97\[Paragraph] J = F\[CapitalAHat]\[CenterDot]t(\
+\[ADoubleDot]\[Cedilla]\[DiscretionaryHyphen]\[ARing]\[DiscretionaryHyphen]\
+\.a6\[CCedilla]\.89\.88\[AE]\.9c\[Not]);\[ARing]\.8f\.98\[ARing]\.8a\.9b\
+\[ARing]\.88\.99\[ARing]\[DownQuestion]\.85\[EAcute]\[DownExclamation]\
+\[RightGuillemet]\[CCedilla]\[Section]\.af\[ARing]\.88\.86\[ATilde]\.80\.82\
+\[AE]\.81\.92\[ARing]\.8a\.9b:\
+\>", "Text",ExpressionUUID->"141d3d37-2e1b-41db-875e-81822cd767b0"],
+
+Cell["Integrate[F0, {t, 0, T}]", "Input",ExpressionUUID->"0b441cfd-f53c-4271-9858-5aa7a5e943a6"],
+
+Cell["\<\
+\[ADoubleDot]\[Cedilla]\.80\[ADoubleDot]\[Cedilla]\.aa\[EAcute]\.9a\.8f\[AE]\
+\.97\[Paragraph]\[EAcute]\.97\.b4\[ARing]\.8f\.98\[ARing]\.8c\.96\[CCedilla]\
+\.9a\.84\[ARing]\.8a\.9b(\[ARing]\.8d\.8a\[ADoubleDot]\[Cedilla]\.aa\[ARing]\
+\.91\[DoubleDot]\[AE]\.9c\.9f\[CCedilla]\.9a\.84\[AE]\[DiscretionaryHyphen]\
+\[Sterling]\[ARing]\.bc\.a6\[ARing]\.86\.b2\[ARing]\.87\[RightGuillemet],\
+\[ADoubleDot]\.be\.8b\[ARing]\.a6\.82\[CCedilla]\[Cent]\[Degree]\[AE]\.92\.9e\
+\[ADoubleDot]\[Cedilla]\[DiscretionaryHyphen]\[CCedilla]\.9a\.84\[ARing]\.8a\
+\.9b)\[CCedilla]\.9a\.84\[ARing]\.86\.b2\[EAcute]\.87\.8f:\
+\>", "Text",ExpressionUUID->"1ef972eb-54d8-4519-9bd9-625c97d31c84"],
+
+Cell["Integrate[F0 Sin[w t], {t, 0, Pi/w}, Assumptions -> w > 0]", "Input",ExpressionUUID->"12463091-c2b5-4c19-82a6-365d02bb0c07"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\[ADoubleDot]\[Cedilla]\.83\[ATilde]\.80\.81\[CCedilla]\
+\[RegisteredTrademark]\.80\[EGrave]\[Degree]\.90\[EGrave]\[DownQuestion]\.90\
+\[ARing]\.8a\[DoubleDot] = \[ADoubleDot]\.ba\.8c\[EAcute]\.98\[Paragraph]\
+\[ARing]\.be\[RegisteredTrademark]\[ARing]\.88\.86\[AE]\.96\.b9\[CCedilla]\
+\[DoubleDot]\.8b\[CCedilla]\.9a\.84\[EGrave]\[Section]\[Sterling]", "Section",\
+ExpressionUUID->"969d5446-2f43-470a-a53b-11ade9f7c792"],
+
+Cell["\<\
+\[ARing]\.bc\.b9\[CCedilla]\[Degree]\[Section]\[AE]\.8c\.af\[ARing]\
+\[DiscretionaryHyphen]\.90\[AE]\[RightGuillemet]\[DownExclamation]\[EGrave]\
+\[Paragraph]\.b3 m\[CapitalAHat]\[CenterDot]x'' = \
+-k\[CapitalAHat]\[CenterDot]x\[ATilde]\.80\.82\[ADoubleDot]\[Cedilla]\
+\[DiscretionaryHyphen]\[ARing]\[DiscretionaryHyphen]\.a6\[ARing]\.8f\.aa\
+\[CCedilla]\[RightGuillemet]\.99\[ADoubleDot]\.bd\[NonBreakingSpace]\
+\[CCedilla]\[RightGuillemet]\.93\[EGrave]\[RegisteredTrademark]\.ba x = A\
+\[CapitalAHat]\[CenterDot]cos(\[CapitalIDoubleDot]\.89t),\[ARing]\.8d\.b4\
+\[EGrave]\.af\.b4\[ADoubleDot]\[Cedilla]\.8d\[AE]\[Cedilla]\.85 \
+\[CapitalIDoubleDot]\.89 \[ADoubleDot]\[Cedilla]\.ba\[ADoubleDot]\
+\[RightGuillemet]\.80\[ADoubleDot]\.b9\.88\[CCedilla]\[DiscretionaryHyphen]\
+\.89\[ADoubleDot]\.ba\.8e \[AHat]\.88\.9a(k/m)\[ATilde]\.80\.82\[ARing]\.9c\
+\[DoubleDot]\[EGrave]\[DownQuestion]\.99\[EAcute]\.87\.8c\[CCedilla]\.9b\.b4\
+\[AE]\.8e\[Yen]\[EGrave]\[Section]\[Sterling]\[EGrave]\[DownQuestion]\.99\
+\[ADoubleDot]\[Cedilla]\.aa\[ARing]\.be\[RegisteredTrademark]\[ARing]\.88\.86\
+\[AE]\.96\.b9\[CCedilla]\[DoubleDot]\.8b,\[CapitalIDoubleDot]\.89 \[EGrave]\
+\.87\.aa\[ARing]\[CenterDot]\[PlusMinus]\[ARing]\[Degree]\[PlusMinus]\[EGrave]\
+\[CenterDot]\.91\[ARing]\.87\.ba\[AE]\.9d\[Yen]\[ADoubleDot]\.ba\.86:\
+\>", "Text",ExpressionUUID->"dd9f4ba9-7af5-49ef-bfac-4c6a812a2b48"],
+
+Cell["\<\
+DSolve[{m x''[t] == -k x[t], x[0] == A, x'[0] == 0}, x[t], t]\
+\>", "Input",ExpressionUUID->"b271921d-3313-4867-9901-354b44b82082"],
+
+Cell["\<\
+\[EGrave]\[Section]\[Sterling]\[AE]\.98\.af A\[CapitalAHat]\[CenterDot]cos(\
+\[AHat]\.88\.9a(k/m)\[CapitalAHat]\[CenterDot]t),\[ARing]\.8d\.b3\[EGrave]\
+\[Section]\.92\[EAcute]\[Cent]\.91\[CCedilla]\.8e\.87 \
+\[CapitalIDoubleDot]\.89 = \[AHat]\.88\.9a(k/m)\[ATilde]\.80\.82\[AE]\.8b\.96\
+\[ARing]\.8a\[DoubleDot]\[AE]\.8c\.af\[ARing]\.b9\.85\[ATilde]\.80\.81\[ARing]\
+\.8a\.b2\[ARing]\.ba\.a6\[CCedilla]\.b3\[RightGuillemet]\[AE]\.95\[Degree]\
+\[ATilde]\.80\.81\[EGrave]\.b4\[DoubleDot]\[EAcute]\.87\.8f,\[CCedilla]\.9c\
+\.8b\[ARing]\.91\[DoubleDot]\[AE]\.9c\.9f\[ADoubleDot]\[Cedilla]\.8e\[AE]\.8c\
+\.af\[ARing]\.b9\.85\[ARing]\.a6\.82\[ADoubleDot]\.bd\.95\[EAcute]\.9a\.8f\
+\[ADoubleDot]\.b9\.8b\[AE]\.94\.b9\[ARing]\.8f\.98:\
+\>", "Text",ExpressionUUID->"9f14cfc5-0517-4acf-b21a-3c8ed187742f"],
+
+Cell["\<\
+Manipulate[
+ Plot[A Cos[Sqrt[k/m] t], {t, 0, 4 Pi},
+  PlotRange -> {-3, 3}, AxesLabel -> {\"t\", \"x\"},
+  ImageSize -> 470, PlotStyle -> Thick],
+ {{A, 2, \"\[AE]\.8c\.af\[ARing]\.b9\.85 A\"}, 0.5, 3}, {{k, 1, \
+\"\[ARing]\.8a\.b2\[ARing]\.ba\.a6 k\"}, 0.2, 5}, {{m, 1, \"\[EGrave]\.b4\
+\[DoubleDot]\[EAcute]\.87\.8f m\"}, 0.2, 5}]\
+\>", "Input",ExpressionUUID->"602f5607-bbdc-40bb-8dc4-45c9814e3651"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\[ARing]\.85\[LeftGuillemet]\[ATilde]\.80\.81\[ADoubleDot]\[Cedilla]\.87\
+\[AE]\.9c\.89\[ARing]\.bc\.95\[ARing]\.8a\.9b:\[ARing]\.9c\.86\[EGrave]\.bd\
+\[DoubleDot]\[EAcute]\.81\.93\[EAcute]\.80\.9f\[ARing]\.ba\.a6\[ADoubleDot]\
+\[Cedilla]\.8e\[EAcute]\.80\.83\[EAcute]\.80\[Cedilla]\[EAcute]\.80\.9f\
+\[ARing]\.ba\.a6", "Section",ExpressionUUID->"92d88c60-ef7c-4eae-8bda-\
+415bec388b53"],
+
+Cell["\<\
+\[ARing]\.9c\.86\[EGrave]\.bd\[DoubleDot]\[EAcute]\.81\.93:\[ARing]\.bc\.95\
+\[ARing]\.8a\.9b\[AE]\.8f\.90\[ADoubleDot]\.be\.9b\[ARing]\.90\.91\[ARing]\
+\[DownQuestion]\.83\[ARing]\.8a\.9b,GMm/r\[CapitalAHat]\.b2 = \
+mv\[CapitalAHat]\.b2/r,\[EGrave]\[Section]\[Sterling]\[ARing]\.87\.ba\
+\[CCedilla]\[RightGuillemet]\.95\[EGrave]\[DownExclamation]\.8c\[EAcute]\.80\
+\.9f\[ARing]\.ba\.a6:\
+\>", "Text",ExpressionUUID->"4c87b1d2-f6e4-42fe-b329-866b7b1d8cc7"],
+
+Cell["Solve[G M m/r^2 == m v^2/r, v]", "Input",ExpressionUUID->"661d6c1c-5a66-4900-8800-3148f83bf9f2"],
+
+Cell["\<\
+\[EAcute]\.80\.83\[EAcute]\.80\[Cedilla]\[EAcute]\.80\.9f\[ARing]\.ba\.a6:\
+\[AE]\.8a\.8a\[CCedilla]\.89\[Copyright]\[ADoubleDot]\.bd\.93\[ADoubleDot]\
+\[RightGuillemet]\.8e R \[AE]\.90\[Not]\[ARing]\.88\[Degree]\[AE]\.97\
+\[NonBreakingSpace]\[CCedilla]\[Copyright]\[CenterDot]\[EGrave]\[DownQuestion]\
+\.9c,\[ARing]\.85\.8b\[AE]\.9c\.8d\[ARing]\.bc\.95\[ARing]\.8a\.9b\[AE]\.89\
+\.80\[ARing]\.81\.9a\[CCedilla]\.9a\.84\[ARing]\.8a\.9f\[AE]\.98\.af\[ARing]\
+\.af\.b9 1/r\[CapitalAHat]\.b2 \[ARing]\.8a\.9b\[CCedilla]\.9a\.84\[CCedilla]\
+\[Section]\.af\[ARing]\.88\.86(\[ADoubleDot]\[Cedilla]\[DiscretionaryHyphen]\
+\[ARing]\[DiscretionaryHyphen]\.a6\[ARing]\[RegisteredTrademark]\.8c\[ARing]\
+\.85\[DoubleDot]\[AE]\.97\[NonBreakingSpace]\[AE]\.b3\.95\[ARing]\[Currency]\
+\.84\[CCedilla]\.90\.86\[ARing]\.8f\.98\[ARing]\.8a\.9b\[ARing]\.81\.9a\
+\[ARing]\.8a\.9f,\[ARing]\.8f\.aa\[EGrave]\.83\.bd\[AE]\[DiscretionaryHyphen]\
+\[RightGuillemet]\[EGrave]\[RegisteredTrademark]\[Degree]\[CCedilla]\
+\[RightGuillemet]\.93\[EGrave]\[RegisteredTrademark]\.ba):\
+\>", "Text",ExpressionUUID->"4d2f4c69-535f-4b09-a3b4-53e8b1ce2ab0"],
+
+Cell["\<\
+W = Integrate[G M m/r^2, {r, R, Infinity}, Assumptions -> R > 0];
+Solve[(1/2) m vesc^2 == W, vesc]\
+\>", "Input",ExpressionUUID->"c5f989ea-3965-40a8-b63f-79a333345a0a"],
+
+Cell["\<\
+\[ARing]\.be\.97\[ARing]\.88\[Degree] v_esc = \[AHat]\.88\.9a(2GM/R)\[ATilde]\
+\.80\.82\[AE]\.95\.b4\[ADoubleDot]\[Cedilla]\.aa\[EGrave]\[DownQuestion]\.87\
+\[CCedilla]\[DoubleDot]\.8b\[AE]\.b2\[DownExclamation]\[AE]\.9c\.89\
+\[ADoubleDot]\[RightGuillemet]\[RightGuillemet]\[ADoubleDot]\.bd\.95\[ATilde]\
+\.80\.8c\[EGrave]\.83\.8c\[ARing]\.85\[Not]\[ARing]\.bc\.8f\[ATilde]\.80\.8d,\
+\[ARing]\.8f\.aa\[AE]\.9c\.89\[ADoubleDot]\[Cedilla]\.80\[AE]\[Not]\
+\[DownExclamation]\[CCedilla]\[Section]\.af\[ARing]\.88\.86\[ARing]\.8a\
+\[NonBreakingSpace]\[ADoubleDot]\[Cedilla]\.80\[AE]\[Not]\[DownExclamation]\
+\[EGrave]\.83\.bd\[EAcute]\.87\.8f\[ARing]\[RegisteredTrademark]\.88\[AE]\.81\
+\.92\[ATilde]\.80\.82\
+\>", "Text",ExpressionUUID->"d54d85c5-50be-4cd7-9b0e-2f9a77cce078"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\[CCedilla]\[RightGuillemet]\.93\[EGrave]\.af\[DiscretionaryHyphen]:\
+\[AE]\.8a\.8a\[ARing]\.be\[RegisteredTrademark]\[CCedilla]\[Section]\.af\
+\[ARing]\.88\.86\[AE]\.91\.86\[ARing]\.9b\.9e\[ARing]\.8f\[Degree]\[EAcute]\
+\.9d\[Cent]", "Section",ExpressionUUID->"86d20359-03e7-4f28-b6b1-\
+292242fd4606"],
+
+Cell["\<\
+\[ARing]\.9b\.9e\[ARing]\[Currency]\.b4\[CCedilla]\.9c\.8b\[ADoubleDot]\.bc\
+\.9a\[ARing]\.8f\.91\[CCedilla]\.8e\[Degree],\[ADoubleDot]\[Cedilla]\
+\[DiscretionaryHyphen]\[ARing]\[DiscretionaryHyphen]\.a6\[CCedilla]\.89\
+\[Copyright]\[CCedilla]\.90\.86\[CCedilla]\.9a\.84\[AE]\.af\.8f\[ADoubleDot]\
+\[Cedilla]\.80\[AE]\.9d\[DownExclamation]\[ARing]\.85\[Not]\[ARing]\.bc\.8f\
+\[EAcute]\.83\.bd\[AE]\.9c\.89\[ADoubleDot]\.ba\.86\[AE]\.9d\[Yen]\[ARing]\.8e\
+\.86:\[CCedilla]\.9e\[Not]\[AE]\.97\[Paragraph]\[EAcute]\.80\.9f\[ARing]\.ba\
+\.a6 = \[ARing]\.af\.bc\[AE]\.95\[Degree];\[EGrave]\[DownQuestion]\.90\[ARing]\
+\.8a\[DoubleDot]\[ARing]\[DiscretionaryHyphen]\.a6\[ADoubleDot]\[Cedilla]\.89\
+\[ARing]\.85\[Not]\[ARing]\.bc\.8f = \[ARing]\.af\.b9\[ARing]\.8a\
+\[NonBreakingSpace]\[EAcute]\.80\.9f\[ARing]\.ba\.a6\[CCedilla]\[Section]\.af\
+\[ARing]\.88\.86\[ADoubleDot]\[Cedilla]\[Currency]\[AE]\[Not]\
+\[DownExclamation];\[CCedilla]\.89\.9b\[EAcute]\[DownExclamation]\
+\[DownQuestion]\[CCedilla]\[Not]\[Not]\[ADoubleDot]\.ba\.8c\[ARing]\
+\[RegisteredTrademark]\.9a\[ARing]\.be\.8b = \[ADoubleDot]\.ba\.8c\[EAcute]\
+\.98\[Paragraph]\[ARing]\.be\[RegisteredTrademark]\[ARing]\.88\.86\[AE]\.96\
+\.b9\[CCedilla]\[DoubleDot]\.8b;\[ARing]\.8a\.9f = \
+\[AHat]\.88\[LeftGuillemet]F dx;\[ARing]\.8a\[DoubleDot]\[EGrave]\.83\.bd\
+\[ARing]\[RegisteredTrademark]\.9a\[CCedilla]\.90\.86 = \[CCedilla]\[Section]\
+\.af\[ARing]\.88\.86\[AE]\.8d\[Cent]\[ARing]\.85\.83;\[CCedilla]\
+\[RegisteredTrademark]\.80\[EGrave]\[Degree]\.90\[EGrave]\[DownQuestion]\.90\
+\[ARing]\.8a\[DoubleDot] = \[EGrave]\[Section]\[Sterling]\[ARing]\.be\
+\[RegisteredTrademark]\[ARing]\.88\.86\[AE]\.96\.b9\[CCedilla]\[DoubleDot]\.8b\
+;\[EAcute]\.80\.83\[EAcute]\.80\[Cedilla]\[EAcute]\.80\.9f\[ARing]\.ba\.a6 = \
+\[ARing]\.8f\.98\[ARing]\.8a\.9b\[ARing]\.81\.9a\[ARing]\.8a\.9f\[CCedilla]\
+\.9a\.84\[CCedilla]\[Section]\.af\[ARing]\.88\.86\[ATilde]\.80\.82\
+\[ADoubleDot]\[Cedilla]\.80\[AE]\.97\.a6\[ARing]\.be\[RegisteredTrademark]\
+\[CCedilla]\[Section]\.af\[ARing]\.88\.86\[ARing]\.88\[Degree]\[ARing]\.9c\.ba\
+,\[CCedilla]\.89\[Copyright]\[CCedilla]\.90\.86\[ARing]\[Degree]\[PlusMinus]\
+\[ADoubleDot]\[RightGuillemet]\.8e\[ATilde]\.80\.8c\[ADoubleDot]\[Cedilla]\.80\
+\[ARing]\[NonBreakingSpace]\.86\[ADoubleDot]\[Cedilla]\.8d\[EGrave]\
+\[RegisteredTrademark]\.b2\[CCedilla]\.90\.86\[ATilde]\.80\.81\[EGrave]\.a6\
+\.81\[CCedilla]\[DownExclamation]\[Not]\[EGrave]\.83\.8c\[CCedilla]\.9a\.84\
+\[CCedilla]\[Not]\.a6\[ARing]\.8f\[CenterDot]\[ATilde]\.80\.8d\[ARing]\.8f\.98\
+\[ARing]\.9b\.9e\[ATilde]\.80\.8c\[ADoubleDot]\[Cedilla]\.80\[AE]\.9d\
+\[DownExclamation]\[EGrave]\.87\.aa\[AE]\.b4\.bd\[CCedilla]\.9a\.84\[EAcute]\
+\.80\[RightGuillemet]\[EGrave]\.be\.91\[EAcute]\.93\.be\[ATilde]\.80\.8d\
+\[AHat]\.80\.94\[AHat]\.80\.94 \[EGrave]\[DownQuestion]\.99\[AE]\
+\[DiscretionaryHyphen]\[Sterling]\[AE]\.98\.af\[CCedilla]\.89\.9b\[EAcute]\
+\[DownExclamation]\[DownQuestion]\[ARing]\.bd\.93\[ARing]\.b9\.b4\[CCedilla]\
+\[Section]\.81\[ARing]\.ba\.95\[ADoubleDot]\[Cedilla]\.8b\[ARing]\.81\.9a\
+\[CCedilla]\.9a\.84\[ADoubleDot]\.ba\.8b\[ATilde]\.80\.82\
+\>", "Text",ExpressionUUID->"af233132-9fdd-4c3b-ae9b-129b2a2f81a8"]
+}, Open  ]]
 }, Open  ]]
 },
-WindowSize->{808, 747},
-WindowMargins->{{Automatic, -219}, {Automatic, -874}},
+WindowSize->{1100, 820},
+WindowMargins->{{Automatic, Automatic}, {Automatic, Automatic}},
 FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (May 11, 2021)",
 StyleDefinitions->"Default.nb",
-ExpressionUUID->"3c7a4fcb-9f9a-44b3-86d0-3fff8eb64e76"
+ExpressionUUID->"0a8e7780-baef-4758-90cc-636f28d0da9b"
 ]
 (* End of Notebook Content *)
 
@@ -47,10 +675,80 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 147, 2, 30, "Input",ExpressionUUID->"783adb55-dd12-4e90-a561-e4f42c428eaa"],
-Cell[730, 26, 148, 2, 34, "Output",ExpressionUUID->"269b72ed-051b-45a5-b46c-d88dbc3233f8"]
+Cell[580, 22, 393, 5, 98, "Title",ExpressionUUID->"3df337e3-9b7d-4982-b2e7-f5f50528a2de"],
+Cell[976, 29, 888, 12, 117, "Subtitle",ExpressionUUID->"19be7da1-f686-4d87-a845-85ebcd969c32"],
+Cell[1867, 43, 4662, 62, 173, "Text",ExpressionUUID->"349ccba2-3767-4b04-bb9f-17e1f65f4563"],
+Cell[6532, 107, 1018, 14, 58, "Text",ExpressionUUID->"c87e7e45-71b8-4a33-ab7d-fbb3be630d70"],
+Cell[CellGroupData[{
+Cell[7575, 125, 314, 3, 67, "Section",ExpressionUUID->"b94a9a8b-3270-4ad0-901f-34233bb3bac7"],
+Cell[7892, 130, 2757, 37, 127, "Text",ExpressionUUID->"c89fb250-b7ed-4f9a-8af1-425e36cbf4d0"],
+Cell[10652, 169, 639, 14, 192, "Input",ExpressionUUID->"dc2dec4b-9f18-4419-8ffe-44efc19b0d6e"],
+Cell[11294, 185, 512, 7, 35, "Text",ExpressionUUID->"e24445d6-ad96-4df0-8813-09b12a6640ea"],
+Cell[11809, 194, 111, 0, 30, "Input",ExpressionUUID->"01b73e21-7011-4edc-b71e-5dffdb4e76c0"],
+Cell[11923, 196, 585, 8, 35, "Text",ExpressionUUID->"ce357db7-90ca-459b-85e1-680ec74c70c7"],
+Cell[12511, 206, 104, 3, 70, "Input",ExpressionUUID->"e63c950a-1816-4df4-8c35-93ca3c03f093"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12652, 214, 451, 5, 70, "Section",ExpressionUUID->"5ec3525e-df57-4f1e-b8dc-f3b8f10f9a00"],
+Cell[13106, 221, 1561, 21, 70, "Text",ExpressionUUID->"6d4a3450-78d8-4b52-8c25-dec375c46e47"],
+Cell[14670, 244, 205, 5, 70, "Input",ExpressionUUID->"27bbd89d-6e3f-4b26-a842-ceec53662dc3"],
+Cell[14878, 251, 1087, 15, 70, "Text",ExpressionUUID->"cf295c39-0661-469b-8873-eac34f878e4d"],
+Cell[15968, 268, 445, 7, 70, "Input",ExpressionUUID->"933ace6c-ccb7-4a03-9553-d01f54e91e40"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16450, 280, 430, 5, 70, "Section",ExpressionUUID->"85ba25de-849e-41cd-8d36-9510c7d1a50a"],
+Cell[16883, 287, 1119, 16, 70, "Text",ExpressionUUID->"1f6e8e47-db77-4886-ae0c-0ab1ec2be622"],
+Cell[18005, 305, 130, 0, 70, "Input",ExpressionUUID->"2f49f956-58d2-4fe6-ac7d-9d7b4667d74e"],
+Cell[18138, 307, 942, 13, 70, "Text",ExpressionUUID->"5a8d8bdb-65d9-4364-8f56-09ddd431734e"],
+Cell[19083, 322, 143, 2, 70, "Input",ExpressionUUID->"3670f2ee-202f-47ba-a2d8-f79db76f7d35"],
+Cell[19229, 326, 705, 10, 70, "Text",ExpressionUUID->"646e2e69-db6f-49b1-98d7-7df722167dab"],
+Cell[19937, 338, 273, 4, 70, "Input",ExpressionUUID->"7fa5d7ba-c66e-4a08-a2f7-56c24b7b757c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20247, 347, 425, 5, 70, "Section",ExpressionUUID->"9a89f166-dffb-40f8-9f7f-37c1ffc54948"],
+Cell[20675, 354, 1283, 18, 70, "Text",ExpressionUUID->"81843d8d-b2e1-46c0-8a60-ab6dc88414f8"],
+Cell[21961, 374, 532, 11, 70, "Input",ExpressionUUID->"b8afdf86-88d1-48c2-b7ea-bd7d0ec0cf23"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22530, 390, 332, 4, 70, "Section",ExpressionUUID->"39703617-8469-4785-9a91-ac266bab889f"],
+Cell[22865, 396, 1024, 15, 70, "Text",ExpressionUUID->"4b4ca9b4-38f7-4b19-bc07-2a41cb59b60b"],
+Cell[23892, 413, 95, 0, 70, "Input",ExpressionUUID->"fcc28bb7-33b6-4a5d-8825-3bca15c035a9"],
+Cell[23990, 415, 450, 6, 70, "Text",ExpressionUUID->"b4d14538-ea7d-4922-a153-55c6fd431e9d"],
+Cell[24443, 423, 97, 0, 70, "Input",ExpressionUUID->"dc8c0915-7571-499f-aac7-d76814354877"],
+Cell[24543, 425, 808, 11, 70, "Text",ExpressionUUID->"5f3c6e68-c1d9-45b2-9efc-ed4cd968d460"],
+Cell[25354, 438, 99, 0, 70, "Input",ExpressionUUID->"a548ed77-78c6-44d1-b172-4fbaf9916ccd"],
+Cell[25456, 440, 882, 12, 70, "Text",ExpressionUUID->"95a6ff08-0597-41ac-bb54-0226af21f8c3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26375, 457, 365, 4, 70, "Section",ExpressionUUID->"ee6e0eeb-4a46-4a4a-bd13-559bd62b270c"],
+Cell[26743, 463, 633, 9, 70, "Text",ExpressionUUID->"141d3d37-2e1b-41db-875e-81822cd767b0"],
+Cell[27379, 474, 96, 0, 70, "Input",ExpressionUUID->"0b441cfd-f53c-4271-9858-5aa7a5e943a6"],
+Cell[27478, 476, 680, 9, 70, "Text",ExpressionUUID->"1ef972eb-54d8-4519-9bd9-625c97d31c84"],
+Cell[28161, 487, 130, 0, 70, "Input",ExpressionUUID->"12463091-c2b5-4c19-82a6-365d02bb0c07"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28328, 492, 427, 5, 70, "Section",ExpressionUUID->"969d5446-2f43-470a-a53b-11ade9f7c792"],
+Cell[28758, 499, 1387, 19, 70, "Text",ExpressionUUID->"dd9f4ba9-7af5-49ef-bfac-4c6a812a2b48"],
+Cell[30148, 520, 141, 2, 70, "Input",ExpressionUUID->"b271921d-3313-4867-9901-354b44b82082"],
+Cell[30292, 524, 806, 11, 70, "Text",ExpressionUUID->"9f14cfc5-0517-4acf-b21a-3c8ed187742f"],
+Cell[31101, 537, 411, 8, 70, "Input",ExpressionUUID->"602f5607-bbdc-40bb-8dc4-45c9814e3651"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31549, 550, 393, 5, 70, "Section",ExpressionUUID->"92d88c60-ef7c-4eae-8bda-415bec388b53"],
+Cell[31945, 557, 466, 7, 70, "Text",ExpressionUUID->"4c87b1d2-f6e4-42fe-b329-866b7b1d8cc7"],
+Cell[32414, 566, 102, 0, 70, "Input",ExpressionUUID->"661d6c1c-5a66-4900-8800-3148f83bf9f2"],
+Cell[32519, 568, 1130, 15, 70, "Text",ExpressionUUID->"4d2f4c69-535f-4b09-a3b4-53e8b1ce2ab0"],
+Cell[33652, 585, 178, 3, 70, "Input",ExpressionUUID->"c5f989ea-3965-40a8-b63f-79a333345a0a"],
+Cell[33833, 590, 782, 11, 70, "Text",ExpressionUUID->"d54d85c5-50be-4cd7-9b0e-2f9a77cce078"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34652, 606, 308, 4, 70, "Section",ExpressionUUID->"86d20359-03e7-4f28-b6b1-292242fd4606"],
+Cell[34963, 612, 3188, 43, 70, "Text",ExpressionUUID->"af233132-9fdd-4c3b-ae9b-129b2a2f81a8"]
+}, Open  ]]
 }, Open  ]]
 }
 ]
 *)
+
+(* End of internal cache information *)
 
